@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "839996568656",
+    "firebase_url": "https://taskerfeema.firebaseio.com",
+    "project_id": "taskerfeema",
+    "storage_bucket": "taskerfeema.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839996568656:android:e26eb4b914a0201f95cd55",
+        "android_client_info": {
+          "package_name": "xyz.mmhasanovee.taskerfeema"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839996568656-io5fsmr61gnkalsom7ujqb9srct4v5dd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "xyz.mmhasanovee.taskerfeema",
+            "certificate_hash": "47c0e62ef47cedd08c89083f323fdd7276458752"
+          }
+        },
+        {
+          "client_id": "839996568656-24psel64vsglnvps2ond9f3tguvld966.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE0XEHoNF7SWx3dtaVr0bdoGxAx9rhV1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839996568656-24psel64vsglnvps2ond9f3tguvld966.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

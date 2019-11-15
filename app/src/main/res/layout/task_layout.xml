@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+
+            android:id="@+id/task_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Task ID:"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+
+            android:id="@+id/task_status"
+
+            android:layout_below="@+id/task_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Task Status:"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+
+
+            android:textStyle="bold"
+
+            />
+        <TextView
+
+            android:id="@+id/task_name"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Task Name:"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:layout_below="@+id/task_status"
+
+            android:textStyle="bold"
+
+            />
+        <TextView
+
+            android:id="@+id/reason"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reason:"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:layout_below="@+id/task_name"
+
+            android:textStyle="bold"
+
+            />
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

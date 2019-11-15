@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserTasksDetails">
+
+    <RelativeLayout
+        android:id="@+id/r2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:layout_alignParentTop="true"
+        >
+
+        <TextView
+            android:text="User's Tasks"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/task_details"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/r2"
+
+        android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:id="@+id/rxx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:layout_margin="2dp"
+            android:background="@drawable/button"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="Assign new task+"
+            android:id="@+id/assign_new_task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="@color/colorAccent"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

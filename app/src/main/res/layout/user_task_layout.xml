@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+
+            android:layout_centerHorizontal="true"
+            android:id="@+id/task_id_u"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task ID:"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+
+            android:layout_centerHorizontal="true"
+            android:id="@+id/task_status_u"
+
+            android:layout_below="@+id/task_id_u"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task Status:"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+
+
+            android:textStyle="bold"
+
+            />
+        <TextView
+
+            android:id="@+id/task_name_u"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Task Name:"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:layout_below="@+id/task_status_u"
+
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:layout_centerHorizontal="true"
+
+            android:id="@+id/reason_u"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reason:"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:layout_below="@+id/task_name_u"
+
+            android:textStyle="bold"
+
+            />
+        <ImageView
+            android:id="@+id/edit_task_status"
+            android:src="@drawable/ic_edit_black_24dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

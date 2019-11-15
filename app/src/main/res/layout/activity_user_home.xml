@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserTasksDetails">
+
+    <RelativeLayout
+        android:id="@+id/r2_u"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:layout_alignParentTop="true"
+        >
+
+        <TextView
+
+            android:text="Your Tasks"
+            android:padding="10dp"
+            android:background="@drawable/input_design"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/user_tasks"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/r2_u"
+
+        android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:id="@+id/r77"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        >
+
+        <Button
+            android:id="@+id/user_logout_btn"
+            android:background="@drawable/button"
+            android:text="logout"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
